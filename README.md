@@ -75,8 +75,8 @@ streamlit run app.py
 
 ## Screenshots
 
-![Screenshot of County Health Dashboard with Cosine Similarity](image.png)
-![Screenshot of County Health Dashboard with BFS Paths](image-1.png)
+![Screenshot of County Health Dashboard with Cosine Similarity](app-images/Screenshot_1.png)
+![Screenshot of County Health Dashboard with BFS Paths](app-images/Screenshot_2.png)
 
 ---
 
