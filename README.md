@@ -80,4 +80,7 @@ streamlit run app.py
 
 ---
 
+## Application
+
+You can access the deployed application [here](https://us-county-health-network.streamlit.app/)
 
