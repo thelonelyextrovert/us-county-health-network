@@ -650,5 +650,5 @@ class CountyHealthApp:
 
 # Main execution
 if __name__ == "__main__":
-    app = CountyHealthApp("PLACES.csv", "uscounties.csv")
+    app = CountyHealthApp("data/PLACES.csv", "data/uscounties.csv")
     app.run()
