@@ -49,7 +49,7 @@ class HealthDataProcessor:
             columns='Measure',
             values='Data_Value',
             aggfunc='mean'
-        ).dropna()
+        ).dropna(how= 'all').fillna(0)
         
         # Merge with geo data
         self.merged_df = health_pivot.merge(
@@ -62,6 +62,8 @@ class HealthDataProcessor:
         self.health_metrics = self.merged_df.drop(
             columns=['lat', 'lng', 'county_full', 'state_name']
         ).set_index('county_fips')
+
+        print("Unique states in health data:", self.merged_df['state_name'].unique())
         
         scaler = StandardScaler()
         normalized = scaler.fit_transform(self.health_metrics)
