@@ -2,6 +2,8 @@
 
 The **County Health Network Explorer** is an interactive Streamlit web app designed to visualize and analyze health similarities across U.S. counties. 
 
+*(Note: If you're not seeing all the functionalities of the website right away, reload it! The code and map rendering is a little slow, and can be optimized for future implementations!)*
+
 ## Overview
 
 Built on publicly available datasets (CDC PLACES and U.S. geographic data), the app treats counties as nodes in a health-based similarity network. Users can explore connections between counties based on shared health metrics like diabetes prevalence, physical inactivity, and smoking rates.
@@ -83,4 +85,8 @@ streamlit run app.py
 ## Application
 
 You can access the deployed application [here](https://us-county-health-network.streamlit.app/)
+
+## Declaration of AI
+
+I used Github's Co-Pilot to refactor and generate parts of the StreamLit's interface code.
 
