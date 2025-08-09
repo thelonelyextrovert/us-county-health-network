@@ -86,7 +86,3 @@ streamlit run app.py
 
 You can access the deployed application [here](https://us-county-health-network.streamlit.app/)
 
-## Declaration of AI
-
-I used Github's Co-Pilot to refactor and generate parts of the StreamLit's interface code.
-
